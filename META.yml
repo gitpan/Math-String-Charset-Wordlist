@@ -1,13 +1,14 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Math-String-Charset-Wordlist
-version:      0.06
+version:      0.07
 version_from: lib/Math/String/Charset/Wordlist.pm
 installdirs:  site
+license:      perl
 requires:
-    Math::BigFloat:                1.41
-    Math::BigInt:                  1.7
-    Math::String:                  1.24
+    Math::BigFloat:                1.47
+    Math::BigInt:                  1.73
+    Math::String:                  1.26
     Test::Simple:                  0.47
 
 distribution_type: module
