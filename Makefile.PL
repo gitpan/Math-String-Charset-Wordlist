@@ -5,10 +5,10 @@ WriteMakefile(
     'NAME'		=> 'Math::String::Charset::Wordlist',
     'VERSION_FROM'	=> 'lib/Math/String/Charset/Wordlist.pm',
     'PREREQ_PM'		=> { 
-			Math::BigInt => 1.64,
-			Math::String => 1.22,
-			Math::BigFloat => 1.38,
-			Test::Simple => 0.48,
+			Math::BigInt => 1.70,
+			Math::String => 1.24,
+			Math::BigFloat => 1.41,
+			Test::Simple => 0.47,
 			   },
     'LIBS'		=> [''], # e.g., '-lm'
     'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'

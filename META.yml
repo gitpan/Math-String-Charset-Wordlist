@@ -1,0 +1,14 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Math-String-Charset-Wordlist
+version:      0.06
+version_from: lib/Math/String/Charset/Wordlist.pm
+installdirs:  site
+requires:
+    Math::BigFloat:                1.41
+    Math::BigInt:                  1.7
+    Math::String:                  1.24
+    Test::Simple:                  0.47
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

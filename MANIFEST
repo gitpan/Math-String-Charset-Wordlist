@@ -21,3 +21,4 @@ t/big.lst
 t/empty.lst
 bench/time.pl
 bench/bench.pl
+META.yml                                 Module meta-data (added by MakeMaker)

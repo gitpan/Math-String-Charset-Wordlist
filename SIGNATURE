@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.21.
+signed via the Module::Signature module, version 0.41.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,36 +14,37 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 
 SHA1 9a6378b62749e2f232ee7a39f33569bc0c9740d2 BUGS
-SHA1 9065409cc97453816a2544c634db4ccb34d6ac77 CHANGES
+SHA1 78a08efa37603592dec80c431c54c7c46b02ca04 CHANGES
 SHA1 27e1292e986de7522bea53f276530ac1284b38c9 CREDITS
 SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 86ecb92ba0a888d6f8edc2b1b0f21e1e1289be74 MANIFEST
-SHA1 cc325f3b38dc5415a3c3caae29c98dccc0b961c1 Makefile.PL
-SHA1 954fb88e7ed2545ba7a8ce9735a6e695c6f1206b NEW
+SHA1 10f846f988cc806fb39f40991f2f6428a51fa59f MANIFEST
+SHA1 39de2045bf43a495eacdffbd8e8be004fee76bd0 META.yml
+SHA1 542236db0ef031c0982348e046aec8dd51565544 Makefile.PL
+SHA1 7cc3c2c234ec6e18260ac5b4168cd9a81af8548e NEW
 SHA1 bec3001875fb45c5cf21c7548acb3e95756b344d README
 SHA1 70e2cab48fa2f7a8d801fc16464d960150daede5 TODO
-SHA1 c3d98cc812a558c8f1a72e501b9873d9013a5301 Wordlist.xs
+SHA1 bebd7aaac1891d173ec454569e5e1866ed16a2b6 Wordlist.xs
 SHA1 abe81828aefd5e24ed8b5126339bb0b6598a652d bench/bench.pl
 SHA1 bf1f154cea71b11bb51efe79018e393fafa7d45b bench/time.pl
 SHA1 e91d9b330267bcf83b6159df359c39bfa3181508 examples/dict.pl
 SHA1 d526aced1029ebf3ad0eeaae20a2bd752379177c examples/wordlist.txt
-SHA1 1b291f2417744e149dc536dbb8d626c94d8766c9 lib/Math/String/Charset/Wordlist.pm
+SHA1 e2b3787effee6fb823d133b0b5014c5b7321a00a lib/Math/String/Charset/Wordlist.pm
 SHA1 5722177c192e246165b07232c1596601e4a914e3 t/big.lst
 SHA1 71853c6197a6a7f222db0f1978c7cb232b87c5ee t/empty.lst
-SHA1 7db7095f6a0e67848c34167fa86ac8047b885173 t/setwpm.t
+SHA1 8dffb2fd8bae21f9dab70dd477c7673a632afc38 t/setwpm.t
 SHA1 bb5fe5b59bbc411613132a214492b83a5d3c0465 t/test0d.lst
 SHA1 078876b4998926fa087c7731dc3d9462b619f982 t/testbig.lst
 SHA1 19729337ed669595ab6600054e4be369117a8a51 t/testlist.lst
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.0.6 (GNU/Linux)
+Version: GnuPG v1.2.4 (GNU/Linux)
 Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
 
-iQEVAwUBPq2BE3cLPEOTuEwVAQHTfwf/QqvVXDq18TJnFOe0pc65Iqav9IQ14+ol
-9u+304GAoW8mC4ngTFTEsq38q2oWd8KkN/BCK6m7NgzqNAGpW+DJtQAQKwW7aIuh
-SE5JQO4hiCZeGUIFzHxNUgfWPiBn7t7LB82Ys88hP0bN4x28efpNgeTu0Pysf/T6
-5PUE+tNR6xVcEsUCUW9z4oOIOcxzJcDt6f3M/PjNHLibrq/Gj8yMznNBj55ERHkw
-7kxn7OI6DJIG6LcvAA+mL45ubWpkDrgH7LY0CXQt13mCYby1zqtYg8W6+gnw+9Sh
-ykMinYIm9rj0pxVCLmzkmfY9DKSW2vv8qMkrBsYRQjl7a+azq13Oeg==
-=liOK
+iQEVAwUBQRx43HcLPEOTuEwVAQFnEgf7BL+S/kOHNEC98wWgzkXOi16J4hBgjlbF
+h0zk5GX2jI5SsL2qtlYF8Zjpq9JlPYK/VPFAVbS3QkFsU/++re2prrBhaCB+M30U
+L80Ns7MkjrMCDuDWYUSI459Wq6viVb0uG1CW6Za2rOt5yVXhptVCyH+wwemmM+25
+1LNL9B4sJm8Gpt++VNxiTxt4zvI75FgI6X++z7F/kMe7PQxqxMmhaanJ3uKRnnG2
+faWMtvegt4zJbdq2uloIQAEK68wrRuMVtt3bJT+0LhERMTBnj731d7l5KffcTnQj
+AX/rJcaRhYYDxN82z/Y1zNCnl2vw1HRAiVfDtFfoY0jSDHf8E1nT+Q==
+=CN1I
 -----END PGP SIGNATURE-----
