@@ -1,0 +1,17 @@
+CHANGES
+BUGS
+INSTALL
+README
+LICENSE
+MANIFEST
+NEW
+CREDITS
+TODO
+SIGNATURE
+Wordlist.xs
+Makefile.PL
+examples/dict.pl
+examples/wordlist.txt
+lib/Math/String/Charset/Wordlist.pm
+t/setwpm.t			# Math::String::Charset::Wordlist
+t/testlist.lst			# wordlist for testsuite

@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.21.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 ae09d4bda408130204240d573b240b89549448bd BUGS
+SHA1 636252defbd2d98f895f035b07b1ac37f63a21ca CHANGES
+SHA1 27e1292e986de7522bea53f276530ac1284b38c9 CREDITS
+SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
+SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
+SHA1 7d5b008da89838a06c91afff49e64c745707a7a9 MANIFEST
+SHA1 10d8dad42b8551616dddc8855a43bf180f1d39bf Makefile.PL
+SHA1 f73200c0aee535db1107271384790c8e99ae3fbd NEW
+SHA1 bec3001875fb45c5cf21c7548acb3e95756b344d README
+SHA1 8e22634e68e7310c4d7c868ee3d42fa485ab34a5 TODO
+SHA1 75ada6dab5a0b47371251f0ba38145e830961b07 Wordlist.xs
+SHA1 e91d9b330267bcf83b6159df359c39bfa3181508 examples/dict.pl
+SHA1 d526aced1029ebf3ad0eeaae20a2bd752379177c examples/wordlist.txt
+SHA1 ad470bdd4e0f9387fbe3d03cf3087f7047af4dda lib/Math/String/Charset/Wordlist.pm
+SHA1 1dd440e1fc2599d027b4e063365425650ccdd824 t/setwpm.t
+SHA1 19729337ed669595ab6600054e4be369117a8a51 t/testlist.lst
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
+
+iQEVAwUBPquUFHcLPEOTuEwVAQF/KAf8DUx5Onqaq+5o57qwbOChxhGCX2QJ49vN
+o/qEcFzG7hxmhbt7qoQYBtXqutO2geIq6teJnpO9LvQDvGWCop5WEWIrdorcAk6n
+r6Dst5N7Tr3Zp2MHumMIGnKRxXss5h3qunY9h7NM0DCnCNHUoJWoMs+5XHP9E4eX
+ocxTa33x2l9YK/FvU0u8VmJ/zeY54i86QBVu8ZHZJ81I4Ed3U/fJdMGZm5P9d5AK
+p2Lg1jpgItG/SZg+OmIFu6QGrCexnSqbZYREGya5TUamq7tEOLdipEnl6tpoU91o
+8DiPamGBNdyNetfjOWbfqconElWZteH214u/PyLxO0R76wckq1pYZg==
+=CihI
+-----END PGP SIGNATURE-----
