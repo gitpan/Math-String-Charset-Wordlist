@@ -8,6 +8,7 @@ WriteMakefile(
 			Math::BigInt => 1.64,
 			Math::String => 1.22,
 			Math::BigFloat => 1.38,
+			Test::Simple => 0.48,
 			   },
     'LIBS'		=> [''], # e.g., '-lm'
     'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'

@@ -17,5 +17,7 @@ t/setwpm.t			# Math::String::Charset::Wordlist
 t/testlist.lst			# test wordlist for testsuite
 t/testbig.lst			# bigger test wordlist for testsuite
 t/test0d.lst			# bigger test wordlist w/ 0d0a lineendings
+t/big.lst
+t/empty.lst
 bench/time.pl
 bench/bench.pl
