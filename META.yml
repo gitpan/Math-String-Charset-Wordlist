@@ -1,15 +1,24 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Math-String-Charset-Wordlist
-version:      0.07
-version_from: lib/Math/String/Charset/Wordlist.pm
-installdirs:  site
-license:      perl
-requires:
-    Math::BigFloat:                1.47
-    Math::BigInt:                  1.73
-    Math::String:                  1.26
-    Test::Simple:                  0.47
-
+---
+abstract: 'A dictionary charset for Math::String'
+author:
+  - 'Tels <nospam-abuse@bloodgate.com>'
+build_requires:
+  Test::More: 0.62
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+generated_by: 'Module::Install version 0.71'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Math-String-Charset-Wordlist
+no_index:
+  directory:
+    - bench
+    - examples
+    - inc
+    - t
+requires:
+  Math::BigFloat: 1.58
+  Math::BigInt: 1.87
+  Math::String: 1.28
+version: 0.08

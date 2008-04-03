@@ -1,17 +1,27 @@
-use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
-WriteMakefile(
-    'NAME'		=> 'Math::String::Charset::Wordlist',
-    'VERSION_FROM'	=> 'lib/Math/String/Charset/Wordlist.pm',
-    'PREREQ_PM'		=> { 
-			Math::BigInt => 1.73,
-			Math::String => 1.26,
-			Math::BigFloat => 1.47,
-			Test::Simple => 0.47,
-			   },
-    'NO_META'		=> 1,
-    'LIBS'		=> [''], # e.g., '-lm'
-    'DEFINE'		=> '', # e.g., '-DHAVE_SOMETHING'
-    'INC'		=> '', # e.g., '-I/usr/include/other'
-);
+
+# We need at least Perl 5.8.3
+require 5.008003;
+use strict;
+
+# Load the Module::Install bundled in ./inc/
+use inc::Module::Install;
+
+# Get most of the details from the primary module
+all_from	'lib/Math/String/Charset/Wordlist.pm';
+
+requires	'Math::BigInt'	=> 1.87;
+requires	'Math::BigFloat'=> 1.58;
+requires	'Math::String'  => 1.28;
+
+build_requires	'Test::More'	=> 0.62;
+
+license		'perl';
+
+author		'Tels <nospam-abuse@bloodgate.com>';
+
+# Do not index these
+no_index	directory	=> 'bench';
+no_index	directory	=> 'examples';
+
+# Generate the Makefile
+WriteAll;

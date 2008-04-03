@@ -1,27 +1,29 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.41.
+signed via the Module::Signature module, version 0.55.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
 
 -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
 
 SHA1 9a6378b62749e2f232ee7a39f33569bc0c9740d2 BUGS
-SHA1 f740ef5f9cd716ebba7044f85342fd28bed9ad29 CHANGES
+SHA1 2eebb6d46d6f030db3b9d5a452e3e921c4dfcb91 CHANGES
 SHA1 27e1292e986de7522bea53f276530ac1284b38c9 CREDITS
 SHA1 1478a9491db7843cc30982149743f24b03c1900f INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 10f846f988cc806fb39f40991f2f6428a51fa59f MANIFEST
-SHA1 92052fcdcd6c46df49a051d4739cddb518794c84 META.yml
-SHA1 5542f2e7c0963cdf8e737c2c7342a529f0af473b Makefile.PL
-SHA1 7cc3c2c234ec6e18260ac5b4168cd9a81af8548e NEW
+SHA1 56ee865e6e5e3154a201642e2700047b832e2a5c MANIFEST
+SHA1 b26d9ff81c0b994c7a992782e517edf8f055d75a MANIFEST.SKIP
+SHA1 3c3cfb34f95e25f7ec32422a622da10943dd99cc META.yml
+SHA1 81d6010bca337e9662fb02a89c15d5dc7e741eda Makefile.PL
+SHA1 c87496874d14379d1f984813adfc23bbe401b90d NEW
 SHA1 bec3001875fb45c5cf21c7548acb3e95756b344d README
 SHA1 70e2cab48fa2f7a8d801fc16464d960150daede5 TODO
 SHA1 bebd7aaac1891d173ec454569e5e1866ed16a2b6 Wordlist.xs
@@ -29,21 +31,31 @@ SHA1 abe81828aefd5e24ed8b5126339bb0b6598a652d bench/bench.pl
 SHA1 bf1f154cea71b11bb51efe79018e393fafa7d45b bench/time.pl
 SHA1 e91d9b330267bcf83b6159df359c39bfa3181508 examples/dict.pl
 SHA1 d526aced1029ebf3ad0eeaae20a2bd752379177c examples/wordlist.txt
-SHA1 dfba2663aabee18dad91d285d01b86fbdbeff4d0 lib/Math/String/Charset/Wordlist.pm
+SHA1 d8f6d2df4e75cb9e6e77a8377457f0ececd00e31 inc/Module/Install.pm
+SHA1 03590cde5c3de0d0d8a84d2b96917ed1a2cf9a30 inc/Module/Install/Base.pm
+SHA1 8ef3c70e905be7d1007b446f21d4eb3ff6ae24cb inc/Module/Install/Can.pm
+SHA1 79054604a1cd4e99443b05cbb62832568a204a33 inc/Module/Install/Fetch.pm
+SHA1 dfa433f2f41d990946f1b3d68a29299539f2dea6 inc/Module/Install/Makefile.pm
+SHA1 72cab336b6be5716aae0a1cb6d9add6c98a7a1f5 inc/Module/Install/Metadata.pm
+SHA1 35a62725a7eade0fa617ef2ba4cf2f4d4a69a3fe inc/Module/Install/Win32.pm
+SHA1 19dcc6d1e9f02c56d3f6d184642f4cd68aa371e6 inc/Module/Install/WriteAll.pm
+SHA1 afd593d2101a8b252622cd6f4bf24dab98cfe8cd lib/Math/String/Charset/Wordlist.pm
 SHA1 5722177c192e246165b07232c1596601e4a914e3 t/big.lst
 SHA1 71853c6197a6a7f222db0f1978c7cb232b87c5ee t/empty.lst
+SHA1 86bed5756c1282981a18caa9f1b80947ef8c36ef t/pod.t
+SHA1 12f1f4d9447c7aa77a846159012a5e7a201bad99 t/pod_cov.t
 SHA1 8dffb2fd8bae21f9dab70dd477c7673a632afc38 t/setwpm.t
-SHA1 bb5fe5b59bbc411613132a214492b83a5d3c0465 t/test0d.lst
+SHA1 078876b4998926fa087c7731dc3d9462b619f982 t/test0d.lst
 SHA1 078876b4998926fa087c7731dc3d9462b619f982 t/testbig.lst
 SHA1 19729337ed669595ab6600054e4be369117a8a51 t/testlist.lst
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.4 (GNU/Linux)
+Version: GnuPG v1.4.6 (GNU/Linux)
 
-iQEVAwUBQZ+YTHcLPEOTuEwVAQG2qgf9FWr8mj1ADst5KF2gmDFGenUd7pCoz4HC
-sC1XVqv4vsu5LRmbEDB/ZtjgB6mII2bNSfSavwNLhCpr4ALDzTq5muQGnvFlcf58
-Dg/v+SdqO/PrHpTg29BEE83qNia8Iaqdr325S0uKAAhpt4DA5e94ysTEhHPZh5b6
-KRPZtWVyWM67vHhbHF+zoOCPiFZ/3COoQJVqLWfF/Z9BQVDYWAfwkp6/oazRAykH
-9WGViKMtjl6F9YP1fZUtHpOCxG2Yj2xXfH14SVqKv2XkOZadkKUlK3GQL+nQhiMh
-hHOXKeZRqQHU5GRI2xSx6C9U91ZqDJhz10KB6KyiiDJMcybUbpa15Q==
-=KzeT
+iQEUAwUBR/UGJHcLPEOTuEwVAQIa4Qf41nJEauzVF7oIWZbT4J7JQJ0v1YOUXVuQ
+faMvm64ZCbkFFPBvQW/UwYa5mLihddJHCHUHusOw/EGNecossobBkPuMXZBJFK37
+IMqtElRQHD4xRwfigG8LK4YVEpEKUHYPOF6avFZj9K9VYZGne/6sjp6moaO14NW7
+bYnkWsm+R3AuSeU7Lpmb7NJ7cMjegucQ5/OJy1XwySbkjncdkQbLnaAOrMOLORGE
+9iVZM2RjFEbCYCpxPzzKh3spDACEN8byPeHwPSU1TfvX4RFgpgnZP3I2yLkAGxgF
+A5ElOLHZfrLKFM6OnlNoWH5WJyzQaclTfVkFxaUZal9X4GGEMGar
+=MX9O
 -----END PGP SIGNATURE-----

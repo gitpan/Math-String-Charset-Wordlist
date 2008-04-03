@@ -1,24 +1,35 @@
-CHANGES
+bench/bench.pl
+bench/time.pl
 BUGS
-INSTALL
-README
-LICENSE
-MANIFEST
-NEW
+CHANGES
 CREDITS
-TODO
-SIGNATURE
-Wordlist.xs
-Makefile.PL
 examples/dict.pl
 examples/wordlist.txt
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+INSTALL
 lib/Math/String/Charset/Wordlist.pm
-t/setwpm.t			# Math::String::Charset::Wordlist
-t/testlist.lst			# test wordlist for testsuite
-t/testbig.lst			# bigger test wordlist for testsuite
-t/test0d.lst			# bigger test wordlist w/ 0d0a lineendings
+LICENSE
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml			Module meta-data (added by MakeMaker)
+NEW
+README
+SIGNATURE
 t/big.lst
 t/empty.lst
-bench/time.pl
-bench/bench.pl
-META.yml                                 Module meta-data (added by MakeMaker)
+t/pod.t
+t/pod_cov.t
+t/setwpm.t			# Math::String::Charset::Wordlist
+t/test0d.lst			# bigger test wordlist w/ 0d0a lineendings
+t/testbig.lst			# bigger test wordlist for testsuite
+t/testlist.lst			# test wordlist for testsuite
+TODO
+Wordlist.xs
